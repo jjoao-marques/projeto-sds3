@@ -59,10 +59,10 @@ const Barchart = () => {
             }
         },
     };
-    
+
     return (
         <Chart
-            options={{ ...options, xaxis: chartData.labels}}
+            options={{ ...options, xaxis: chartData.labels }}
             series={chartData.series}
             type="bar"
             height="240"
